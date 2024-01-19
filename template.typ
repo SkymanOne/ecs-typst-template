@@ -1,6 +1,6 @@
 #import "ecsproject.typ": *
 
-// Use everthning together
+// Use everything together
 
 #show: doc => use_project(
   title: "My project",
@@ -16,7 +16,7 @@
     name: "Examiner name",
     email: none
   ),
-  date: "Janury 19, 2024",
+  date: "January 19, 2024",
   program: "BSc Computer Science",
   is_progress_report: false,
   originality_statements: (

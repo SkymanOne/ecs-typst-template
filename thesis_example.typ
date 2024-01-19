@@ -1,6 +1,6 @@
 #import "ecsproject.typ": *
 
-// Use everthning together
+// Use everything together
 
 #show: doc => use_project(
   title: "My project",

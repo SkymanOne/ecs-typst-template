@@ -31,7 +31,7 @@ Nix and Docker users, please refer to the official installation guide for detail
 ```typ
 #import "ecsproject.typ": *
 
-// Use everthning together
+// Use everything together
 
 #show: doc => use_project(
   title: "My project",
@@ -47,7 +47,7 @@ Nix and Docker users, please refer to the official installation guide for detail
     name: "Examiner name",
     email: none
   ),
-  date: "Janury 19, 2024",
+  date: "January 19, 2024",
   program: "BSc Computer Science",
   is_progress_report: false,
   originality_statement: (
