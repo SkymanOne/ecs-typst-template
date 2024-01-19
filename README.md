@@ -8,9 +8,12 @@ This repository aims to provide an easy-to-use and comprehensive template to use
 It aims to follow the most recent (2023-2024) guidelines on the format and compiles to the _"LaTeX-like"_ pdf.
 
 ## Features
+- Attempts to use mimic the LaTeX class provided by the ECS
 - Use a single command to begin to generate the whole document
 - Or use individual components to customise your report to your needs
 - Easy-to-read template enables customisation of styles
+- hyperlinks on default pages
+- Alternating style of pagination depending on the headings
 
 ## Installation
 
