@@ -21,7 +21,7 @@
   // Is your report a progress report?
   is_progress_report: false,
   // You can remove this arg all together if you need, it will autfill witb default values
-  originality_statement: (
+  originality_statements: (
     acknowledged: "I have acknowledged all sources, and identified any content taken from elsewhere.",
     resources: "I have not used any resources produced by anyone else.",
     foreign: "I did all the work myself, or with my allocated group, and have not helped anyone else",
