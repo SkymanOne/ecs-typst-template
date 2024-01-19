@@ -66,7 +66,7 @@ Nix and Docker users, please refer to the official installation guide for detail
   - `author`, `supervisor`, `examiner`: named tuple of `(name, email)` for you, supervisor and second examiner
   - `date` - date in string format
   - `program` the title of your program
-  - `is_progress_report` - is is a progress report?
+  - `is_progress_report` - is it a progress report?
   - `originality_statement` - originality statement confirmations (optional). If not specified, default values are used
   - `abstract_text` - your abstract, simple string text
   - `acknowledgments_text` - acknowledgments, same as above
@@ -113,4 +113,4 @@ If you prefer an integrated IDE-like experience with autocompletion and instant 
 - [Typst VS Code Extension (unofficial)](https://marketplace.visualstudio.com/items?itemName=nvarner.typst-lsp)
 
 ## Contribution
-I am graduating in 2024 from the university, and aware than the guidelines may change, feel free to open an issue or PR to amend the template.
+I am graduating in 2024 from the university, and aware that the guidelines may change, feel free to open an issue or PR to amend the template.
