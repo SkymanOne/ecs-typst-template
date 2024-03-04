@@ -18,6 +18,9 @@
   ),
   date: "January 19, 2024",
   program: "BSc Computer Science",
+  department: "Electronics and Computer Science",
+  faculty: "Faculty of Engineering and Physical Sciences",
+  university: "University of Southampton",
   is_progress_report: false,
   originality_statements: (
     acknowledged: "I have acknowledged all sources, and identified any content taken from elsewhere.",

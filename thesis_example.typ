@@ -18,6 +18,9 @@
   ),
   date: "December 22, 2023",
   program: "BSc Computer Science",
+  department: "Electronics and Computer Science",
+  faculty: "Faculty of Engineering and Physical Sciences",
+  university: "University of Southampton",
   // Is your report a progress report?
   is_progress_report: false,
   // You can remove this arg all together if you need, it will autfill witb default values
