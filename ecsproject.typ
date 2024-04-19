@@ -1,3 +1,5 @@
+#import "@preview/wordometer:0.1.1": word-count, total-words
+
 #let author_linked(
   name: "Author name",
   email: none,
@@ -18,8 +20,10 @@
 #let page_style(
   page_numbering: "1",
   title_numbering: "1.",
+  display_word_count: false,
   doc
 ) = {
+  let words_label = text(weight: "bold", [Total words: #total-words])
 
   set page(
     numbering: page_numbering,
@@ -126,6 +130,9 @@
     if heading_present {
       let p_counter = counter(page).display(page_numbering)
       align(center, p_counter)
+    }
+    if display_word_count {
+      align(center, words_label)
     }
   }),
   header-ascent: 20%,
@@ -406,7 +413,7 @@
   acknowledgments_text: lorem(50),
   page_numbering: "1",
   title_numbering: "1.",
-
+  display_word_count: false,
   doc
 ) = {
   cover(
@@ -445,9 +452,13 @@
 
   table_of_contents()
 
+  // todo: conifgure to exclude apendix and bibliography
+  show: word-count
+
   show: doc => page_style(
     page_numbering: page_numbering,
     title_numbering: title_numbering,
+    display_word_count: display_word_count,
   doc
   )
 

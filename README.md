@@ -75,6 +75,7 @@ Nix and Docker users, please refer to the official installation guide for detail
   - `acknowledgments_text` - acknowledgments, same as above
   - `page_numbering: "1"` - page numbering style (optional)
   - `title_numbering: "1."` - heading numbering style (optional)
+  - `display_word_count: false` - display word count in the footer (optional)
 - If you need modify the structure of your document, shuffle pages around, you can use individual components as demonstrated in `thesis_example.typ`
 
 
