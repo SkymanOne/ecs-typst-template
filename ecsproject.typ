@@ -12,7 +12,7 @@
   }
 }
 
-#let margins = (inside: 1.4in, outside: 1.0in, top: 1.0in, bottom: 1.0in)
+#let margins = (inside: 1.0in, outside: 1.0in, top: 1.0in, bottom: 1.0in)
 
 #let body-font = "New Computer Modern"
 #let sans-font = "New Computer Modern Sans"
